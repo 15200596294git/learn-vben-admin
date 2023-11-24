@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld  from 'components/HelloWorld.vue';
 
 const BASE_URL = import.meta.env.BASE_URL
 console.log("🚀 ~ file: App.vue:5 ~ BASE_URL:", BASE_URL)
@@ -8,6 +9,8 @@ console.log("🚀 ~ file: App.vue:7 ~ import.meta.env.VITE_LWJ:", import.meta.en
 
 
 const viteSvg = `${BASE_URL}vite.svg`
+
+const v = __APP_VERSION__
 
 
 /**
@@ -24,6 +27,7 @@ const viteSvg = `${BASE_URL}vite.svg`
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+  <p>{{ v }}</p>
   <HelloWorld msg="Vite + Vue" />
 </template>
 
