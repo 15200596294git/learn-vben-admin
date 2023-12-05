@@ -15,11 +15,11 @@ module.exports = {
       },
     },
   ],
-  parserOptions: {
-    ecmaVersion: "latest",
-    parser: "@typescript-eslint/parser",
-    sourceType: "module",
-  },
-  plugins: ["@typescript-eslint", "vue"],
-  ignorePatterns: ["*.json", "*.lock"],
+  // parserOptions: {
+  //   ecmaVersion: "latest",
+  //   parser: "@typescript-eslint/parser",
+  //   sourceType: "module",
+  // },
+  // plugins: ["@typescript-eslint", "vue"],
+//   ignorePatterns: ["*.json", "*.lock"],
 };

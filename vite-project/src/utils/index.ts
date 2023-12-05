@@ -4,4 +4,4 @@ list.map((item) => {
   item * 2;
 });
 
-const obj = {}
+const obj = '1'
