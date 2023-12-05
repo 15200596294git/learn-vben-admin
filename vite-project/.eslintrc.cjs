@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: "eslint:recommended",
+  extends: ["plugin:vue/vue3-recommended"],
   overrides: [
     {
       env: {
@@ -15,17 +15,11 @@ module.exports = {
       },
     },
   ],
-  // "parserOptions": {
-  //     "ecmaVersion": "latest",
-  //     "parser": "@typescript-eslint/parser",
-  //     "sourceType": "module"
-  // },
-  // "plugins": [
-  //     "@typescript-eslint",
-  //     "vue"
-  // ],
-  rules: {
-    // semi: ["error", "always"],
-    "line-comment-position": ["error", { position: "above" }],
+  parserOptions: {
+    ecmaVersion: "latest",
+    parser: "@typescript-eslint/parser",
+    sourceType: "module",
   },
+  plugins: ["@typescript-eslint", "vue"],
+  ignorePatterns: ["*.json", "*.lock"],
 };
