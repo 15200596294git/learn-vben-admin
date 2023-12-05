@@ -1,5 +1,5 @@
-const list = [1,2,3,4,5];
+const list = [1, 2, 3, 4, 5];
 
-list.map(item=> {
+list.map((item) => {
   item * 2;
 });
