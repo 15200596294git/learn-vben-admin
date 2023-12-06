@@ -21,5 +21,5 @@ module.exports = {
   //   sourceType: "module",
   // },
   // plugins: ["@typescript-eslint", "vue"],
-//   ignorePatterns: ["*.json", "*.lock"],
+  ignorePatterns: ["*.json", "*.lock"],
 };

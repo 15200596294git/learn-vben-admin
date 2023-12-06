@@ -12,7 +12,7 @@ const viteSvg = `${BASE_URL}vite.svg` // 雷猴
 
 const v = __APP_VERSION__
 
-// 
+
 const obj = {}
 
 
