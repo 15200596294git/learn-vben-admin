@@ -4,4 +4,3 @@ list.map((item) => {
   item * 2;
 });
 
-const obj = '1'
