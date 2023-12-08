@@ -25,6 +25,14 @@
     "quotes": [
       "error",
       "single"
+    ],
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "indent": [
+      "error",
+      2
     ]
   }
 }
