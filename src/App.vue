@@ -1,13 +1,9 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-const obj = ''
-
-
 </script>
 
 <template>
   <div>
-    <p>{{ obj }}</p>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>

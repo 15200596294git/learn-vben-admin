@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "prepare": "cd .. && husky install vite-project/husky"
+    "prepare": "husky install"
   },
   "dependencies": {
     "vue": "^3.3.8"
@@ -18,13 +18,13 @@
     "@vitejs/plugin-vue": "^4.5.0",
     "eslint": "^8.55.0",
     "eslint-plugin-vue": "^9.19.2",
-    "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
-    "vue-tsc": "^1.8.22"
+    "vue-tsc": "^1.8.22",
+    "husky": "^8.0.0"
   },
   "lint-staged": {
-    "*.{js,ts,vue}": "eslint --fix"
+    "*.{vue,js,ts}": "eslint --fix"
   }
 }
